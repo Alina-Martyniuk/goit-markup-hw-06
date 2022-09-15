@@ -597,7 +597,10 @@ margin-bottom: 9px;
 .footer-layout{
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+}
+
+.contacts{
+    margin-right: 70px;
 }
 
 .social-contacts-title{
@@ -637,6 +640,10 @@ margin-bottom: 9px;
     fill: var(--clear-white-color);
 }
 
+.subscribe-footer{
+    margin-left: auto;
+}
+
 .subscribe-footer-title{
     margin-bottom: 20px;
     font-weight: 700;
@@ -661,6 +668,7 @@ margin-bottom: 9px;
     border-radius: 4px;
     background-color: var(--bg-dark-color);
     padding-left: 16px;
+    color: var(--clear-white-color);
 }
 
 .subscribe-footer-email::placeholder {
